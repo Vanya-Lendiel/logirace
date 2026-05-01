@@ -1,1 +1,22 @@
+body {
+    background-color: #121212;
+    overflow-x: hidden;
+}
+
+.div-head {
+    position: relative;
+    top: -25px;
+    left: -10px;
+    width: 106%;
+    background-color: #222222;
+}
+
+.h1-name {
+    position: relative;
+    color: #FF6B6B;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    left: 350px;
+    top: 25px;
+}
+
 
