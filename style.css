@@ -66,6 +66,12 @@ a:active {
     cursor: pointer;
 }
 
+.btn-theme:hover {
+    background-color: #181414;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
 .div-start {
     position: relative;
     background-color: #222222;
@@ -104,4 +110,9 @@ a:active {
     text-decoration: none;
     border: none;
     cursor: pointer;
+}
+
+.dark {
+    background-color: #181717;
+    transition: 0.3s;
 }
