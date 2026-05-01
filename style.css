@@ -65,3 +65,43 @@ a:active {
     left: 1450px;
     cursor: pointer;
 }
+
+.div-start {
+    position: relative;
+    background-color: #222222;
+    width: 400px;
+    height: 250px;
+    left: 755px;
+    border-radius: 15px;
+}
+
+.h1-quiz {
+    position: relative;
+    font-size: 26px;
+    left: 85px;
+    top: 45px;
+    color: white;
+}
+
+.p-quiz {
+    position: relative;
+    font-size: 23px;
+    left: 72.5px;
+    top: 45px;
+    color: white;
+}
+
+.start-quiz {
+    position: relative;
+    background-color: #FF6B6B;
+    color: white;
+    top: 55px;
+    left: 100px;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 16px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
