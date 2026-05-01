@@ -19,4 +19,49 @@ body {
     top: 25px;
 }
 
+a:hover {
+    transition: 0.3s;
+    color: #FF6B6B;
+}
 
+a:active {
+    transition: 0.3s;
+    color: white;
+}
+
+.about-us {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    top: -28.5px;
+    left: 1250px;
+}
+
+.contact-us {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    top: -28.5px;
+    left: 1350px;
+}
+
+.btn-theme {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    top: -28.5px;
+    left: 1450px;
+    background-color: #222222;
+    border: none;
+}
+
+.btn-theme {
+    position: relative;
+    font-size: 20px;
+    top: -28.5px;
+    left: 1450px;
+    cursor: pointer;
+}
