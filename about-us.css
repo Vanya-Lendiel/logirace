@@ -156,7 +156,7 @@ a:active {
     width: 200px;
     height: 50px;
     border-radius: 15px;
-    font-size: 16px;
+    font-size: 19px;
     text-decoration: none;
     border: none;
     cursor: pointer;
@@ -173,6 +173,19 @@ a:active {
     position: relative;
     height: 50px;
     transition: 0.3s;
+}
+
+.a-home {
+    color: white;
+    text-decoration: none;
+}
+
+.a-home:hover {
+    color: white;
+}
+
+.a-home:active {
+    color: white;
 }
 
 .dark {
