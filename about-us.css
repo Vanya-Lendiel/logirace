@@ -92,7 +92,7 @@ a:active {
     position: relative;
     background-color: #222222;
     width: 850px;
-    height: 285px;
+    height: 225px;
     left: 525px;
     border-radius: 15px;
 }
@@ -100,15 +100,15 @@ a:active {
 .h1-about {
     position: relative;
     font-size: 30px;
-    left: 350px;
-    top: 25px;
+    left: 885px;
+    top: -10px;
     color: white;
 }
 
 .p-hello {
     position: relative;
     font-size: 23px;
-    left: 200px;
+    left: 35px;
     top: 25px;
     color: white;
 }
@@ -116,7 +116,7 @@ a:active {
 .p-new {
     position: relative;
     font-size: 23px;
-    left: 20px;
+    left: 35px;
     top: 25px;
     color: white;
 }
@@ -124,7 +124,7 @@ a:active {
 .p-again {
     position: relative;
     font-size: 23px;
-    left: 265px;
+    left: 35px;
     top: 25px;
     color: white;
 }
@@ -132,7 +132,7 @@ a:active {
 .h2-end {
     position: relative;
     font-size: 25px;
-    left: 275px;
+    left: 35px;
     top: 25px;
     color: white;
 }
