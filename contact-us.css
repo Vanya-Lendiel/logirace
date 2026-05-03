@@ -1,1 +1,199 @@
+body {
+    background-color: #121212;
+    overflow-x: hidden;
+}
 
+.div-head {
+    position: relative;
+    top: -25px;
+    left: -10px;
+    width: 106%;
+    background-color: #222222;
+}
+
+.h1-name {
+    position: relative;
+    color: #FF6B6B;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    left: 350px;
+    top: 29px;
+}
+
+a:hover {
+    transition: 0.3s;
+    color: #FF6B6B;
+}
+
+a:active {
+    transition: 0.3s;
+    color: white;
+}
+
+.about-us {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    top: -28.5px;
+    left: 1250px;
+}
+
+.contact-us {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    top: -28.5px;
+    left: 1350px;
+}
+
+.btn-theme {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    top: -28.5px;
+    left: 1450px;
+    background-color: #222222;
+    border: none;
+}
+
+.btn-theme {
+    position: relative;
+    font-size: 20px;
+    top: -28.5px;
+    left: 1450px;
+    cursor: pointer;
+}
+
+.btn-theme:hover {
+    background-color: #181414;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.btn-theme:active {
+    background-color: #222222;
+    border-radius: 15px;
+    transition: 0.3s;
+    font-size: 20px;
+}
+
+.home {
+    text-decoration: none;
+    color: #FF6B6B;
+}
+
+.home:active {
+    color:#FF6B6B;
+}
+
+.div-contact {
+    position: relative;
+    background-color: #222222;
+    width: 850px;
+    height: 225px;
+    left: 525px;
+    border-radius: 15px;
+}
+
+.h1-contact {
+    position: relative;
+    font-size: 30px;
+    left: 878px;
+    top: -10px;
+    color: white;
+}
+
+.p-contact {
+    position: relative;
+    font-size: 23px;
+    left: 35px;
+    top: 25px;
+    color: white;
+}
+
+.p-email {
+    position: relative;
+    font-size: 23px;
+    left: 35px;
+    top: 25px;
+    color: white;
+}
+
+.p-number {
+    position: relative;
+    font-size: 23px;
+    left: 35px;
+    top: 25px;
+    color: white;
+}
+
+.p-street {
+    position: relative;
+    font-size: 25px;
+    left: 35px;
+    top: 25px;
+    color: white;
+}
+
+.line {
+    position: relative;
+    background-color: #222222;
+    width: 1500px;
+    height: 5px;
+    left: 182.5px;
+    top: 45px;
+    border-radius: 15px;
+}
+
+.btn-home {
+    position: relative;
+    background-color: #FF6B6B;
+    color: white;
+    top: 90px;
+    left: 850px;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 19px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-home:hover{
+    position: relative;
+    width: 200px;
+    height: 55px;
+    transition: 0.3s;
+}
+
+.btn-home:active {
+    position: relative;
+    height: 50px;
+    transition: 0.3s;
+}
+
+.h1-contact {
+    
+}
+
+.a-home {
+    color: white;
+    text-decoration: none;
+}
+
+.a-home:hover {
+    color: white;
+}
+
+.a-home:active {
+    color: white;
+}
+
+
+.dark {
+    background-color: #181717;
+    transition: 0.3s;
+}
