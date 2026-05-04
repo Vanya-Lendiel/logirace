@@ -132,6 +132,16 @@ a:active {
     transition: 0.3s;
 }
 
+.a-quiz {
+    color: white;
+    text-decoration: none;
+}
+
+.a-quiz:hover {
+    color: white;
+    text-decoration: none;
+}
+
 .dark {
     background-color: #181717;
     transition: 0.3s;
