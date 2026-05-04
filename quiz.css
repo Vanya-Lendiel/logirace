@@ -1,1 +1,85 @@
+body {
+    background-color: #121212;
+    overflow-x: hidden;
+}
 
+.div-head {
+    position: relative;
+    top: -25px;
+    left: -10px;
+    width: 106%;
+    background-color: #222222;
+}
+
+.h1-name {
+    position: relative;
+    color: #FF6B6B;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    left: 350px;
+    top: 29px;
+}
+
+a:hover {
+    transition: 0.3s;
+    color: #FF6B6B;
+}
+
+a:active {
+    transition: 0.3s;
+    color: white;
+}
+
+.about-us {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    top: -28.5px;
+    left: 1250px;
+}
+
+.contact-us {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    top: -28.5px;
+    left: 1350px;
+}
+
+.btn-theme {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    top: -28.5px;
+    left: 1450px;
+    background-color: #222222;
+    border: none;
+}
+
+.btn-theme {
+    position: relative;
+    font-size: 20px;
+    top: -28.5px;
+    left: 1450px;
+    cursor: pointer;
+}
+
+.btn-theme:hover {
+    background-color: #181414;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.btn-theme:active {
+    background-color: #222222;
+    border-radius: 15px;
+    transition: 0.3s;
+    font-size: 20px;
+}
+
+.dark {
+    background-color: #181717;
+    transition: 0.3s;
+}
