@@ -79,6 +79,19 @@ a:active {
     font-size: 20px;
 }
 
+.home {
+    color: #FF6B6B;
+    text-decoration: none;
+}
+
+.home:hover {
+    color: #FF6B6B;
+}
+
+.home:active {
+    color: #FF6B6B;
+}
+
 .dark {
     background-color: #181717;
     transition: 0.3s;
