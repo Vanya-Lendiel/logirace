@@ -39,3 +39,42 @@ const quiz = [
 
 let current = 0;
 let score = 0;
+
+const q = document.getElementById("question");
+const a = document.getElementById("answers");
+const next = document.getElementById("nextBtn");
+const result = document.getElementById("result");
+
+function show() {
+    const item = quiz[current];
+    q.textContent = item.question;
+    a.innerHTML = "";
+
+    item.answers.forEach((text, i) => {
+        const btn = document.createElement("button");
+        btn.textContent = text;
+
+        btn.onclick = () => {
+            if (i === item.correct) score++;
+            next.style.display = "block";
+        };
+
+        a.appendChild(btn);
+    });
+}
+
+next.onclick = () => {
+    current++;
+    next.style.display = "none";
+
+    if (current < quiz.length) {
+        show();
+    } else {
+        q.textContent = "";
+        a.innerHTML = "";
+        next.style.display = "none";
+        result.innerHTML = `Результат: ${score} / ${quiz.length}`;
+    }
+};
+
+show();
