@@ -96,3 +96,30 @@ a:active {
     background-color: #181717;
     transition: 0.3s;
 }
+
+.quiz {
+    max-width: 600px;
+    margin: 120px auto;
+    background: #222222;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#question {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+#answers button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background: #2d2d2d;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
