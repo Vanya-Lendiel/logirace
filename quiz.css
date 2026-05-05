@@ -142,6 +142,7 @@ a:active {
 }
 
 #result {
+    position: relative;
     margin-top: 20px;
     font-size: 22px;
     color: #FF6B6B;
