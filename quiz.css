@@ -123,3 +123,23 @@ a:active {
     transition: 0.3s;
 }
 
+#answers button:hover {
+    background: #FF6B6B;
+}
+
+#nextBtn {
+    display: none;
+    margin: 20px auto 0;
+    padding: 10px 25px;
+    background: #FF6B6B;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 22px;
+    color: #FF6B6B;
+}
