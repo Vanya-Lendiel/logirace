@@ -107,6 +107,7 @@ a:active {
 }
 
 #question {
+    color: white;
     font-size: 22px;
     margin-bottom: 20px;
 }
@@ -128,6 +129,8 @@ a:active {
 }
 
 #nextBtn {
+    position: relative;
+    top: 10px;
     display: none;
     margin: 20px auto 0;
     padding: 10px 25px;
