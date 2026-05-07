@@ -74,7 +74,11 @@ next.onclick = () => {
         a.innerHTML = "";
         next.style.display = "none";
         result.innerHTML = `Результат: ${score} / ${quiz.length}`;
+        homeBtn.style.display = "block";
     }
 };
+
+
+
 
 show();
