@@ -1,6 +1,7 @@
 body {
     background-color: #121212;
     overflow-x: hidden;
+    font-family: Arial, sans-serif;
 }
 
 .div-head {
@@ -49,20 +50,12 @@ a:active {
 
 .btn-theme {
     position: relative;
-    text-decoration: none;
     color: white;
     font-size: 20px;
     top: -28.5px;
     left: 1450px;
     background-color: #222222;
     border: none;
-}
-
-.btn-theme {
-    position: relative;
-    font-size: 20px;
-    top: -28.5px;
-    left: 1450px;
     cursor: pointer;
 }
 
@@ -70,13 +63,6 @@ a:active {
     background-color: #181414;
     border-radius: 15px;
     transition: 0.3s;
-}
-
-.btn-theme:active {
-    background-color: #222222;
-    border-radius: 15px;
-    transition: 0.3s;
-    font-size: 20px;
 }
 
 .home {
@@ -90,11 +76,6 @@ a:active {
 
 .home:active {
     color: #FF6B6B;
-}
-
-.dark {
-    background-color: #181717;
-    transition: 0.3s;
 }
 
 .quiz {
@@ -129,8 +110,6 @@ a:active {
 }
 
 #nextBtn {
-    position: relative;
-    top: 10px;
     display: none;
     margin: 20px auto 0;
     padding: 10px 25px;
@@ -142,9 +121,23 @@ a:active {
 }
 
 #result {
-    position: relative;
-    top: -10px;
     margin-top: 20px;
     font-size: 22px;
     color: #FF6B6B;
+}
+
+#homeBtn {
+    display: none;
+    margin: 20px auto 0;
+    padding: 10px 25px;
+    background: #FF6B6B;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+#homeBtn:hover {
+    background: #ff5252;
+    transition: 0.3s;
 }
