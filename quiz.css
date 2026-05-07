@@ -141,3 +141,8 @@ a:active {
     background: #ff5252;
     transition: 0.3s;
 }
+
+.dark {
+    background-color: #181717;
+    transition: 0.3s;
+}
